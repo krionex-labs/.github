@@ -1,32 +1,81 @@
-# Krionex
+<div align="center">
+  <h1>Krionex</h1>
+  <p><strong>Smart contract deployment and token operations workspace for EVM builders.</strong></p>
 
-Krionex provides smart contract deployment infrastructure for on-chain products.
+  <a href="https://krionex.com">Website</a> ·
+  <a href="https://krionex.com/examples">Live Examples</a> ·
+  <a href="https://twitter.com/krionexofficial">Twitter</a> ·
+  <a href="https://linkedin.com/company/krionex">LinkedIn</a>
+</div>
 
-The platform helps users deploy, verify, and manage ERC20, ERC721, and ERC1155 contracts across major EVM networks from one workspace.
+---
 
-Krionex is designed for token launches, NFT collections, DAO assets, gaming assets, membership NFTs, Web3 agencies, founders, creators, developers, and on-chain product teams.
-**Non-custodial. Wallet-confirmed. No private key custody.**
+## What is Krionex?
 
-## What Krionex focuses on
+Krionex is a non-custodial workspace for deploying and managing 
+ERC20, ERC721, and ERC1155 smart contracts across supported EVM networks.
 
-- ERC20, ERC721, and ERC1155 deployment workflows
-- Multi-chain contract operations
-- Configure and deploy token contracts without scripts
-- Run preflight simulations before spending gas
-- Auto-verification on block explorers after deployment
-- Post-launch operations: mint, burn, pause, unpause
-- Deployment history and records in one workspace
-- A cleaner workspace for repeatable smart contract launches
-- 
-## Live Mainnet Examples
-Real deployed contracts: [krionex.com/examples](https://krionex.com/examples)
+No deployment scripts. No manual verification. No scattered records.
 
-## Links
-- Website: https://krionex.com
-- Trust Center: https://krionex.com/trust
-- X: https://x.com/krionexOfficial
-- LinkedIn: https://www.linkedin.com/company/krionex/
-- Blog: https://krionex.hashnode.dev
-- 
+You configure the contract, run a preflight simulation, sign from 
+your own wallet, and Krionex handles verification, deployment records, 
+and post-launch operations — all in one place.
+
+---
+
 ## Supported Networks
-Ethereum · Base · Polygon · Arbitrum · BNB Chain · Optimism · Avalanche
+
+| Network | Mainnet | Testnet |
+|---------|---------|---------|
+| Ethereum | ✅ | ✅ |
+| Base | ✅ | ✅ |
+| Polygon | ✅ | ✅ |
+| Arbitrum | ✅ | ✅ |
+| BNB Chain | ✅ | ✅ |
+| Optimism | ✅ | ✅ |
+| Avalanche | ✅ | ✅ |
+
+---
+
+## What You Can Do
+
+- 🚀 Deploy ERC20, ERC721, ERC1155 contracts from one workspace
+- 🔍 Run preflight simulations before spending gas
+- ✅ Auto-verification on block explorers after deployment
+- 📋 Deployment records and history saved automatically
+- ⚙️ Post-launch operations: mint, burn, pause, unpause
+- 🔐 Non-custodial — your wallet signs everything, we never touch your keys
+
+---
+
+## Trust Model
+
+| What | How |
+|------|-----|
+| Wallet execution | Every action signed directly from your wallet |
+| Private keys | Never stored or accessed by Krionex |
+| Gas fees | Stay in your wallet — you pay the network directly |
+| Deployment records | Stored in your workspace with explorer links |
+
+---
+
+## Live Mainnet Deployments
+
+Real contracts deployed via Krionex — verified on-chain.
+
+→ [View all examples at krionex.com/examples](https://krionex.com/examples)
+
+---
+
+## Repositories
+
+| Repo | Description |
+|------|-------------|
+| [smart-contract-examples](https://github.com/krionex-labs/smart-contract-examples) | Real ERC20, ERC721, ERC1155 contracts deployed via Krionex |
+| [evm-deployment-guide](https://github.com/krionex-labs/evm-deployment-guide) | Free guide to deploying smart contracts across EVM networks |
+
+---
+
+<div align="center">
+  <strong>Try your first deployment free → <a href="https://krionex.com">krionex.com</a></strong>
+</div>
